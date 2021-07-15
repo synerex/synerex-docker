@@ -1,0 +1,6 @@
+[submodule "minimal-nodeserv/nodeserv"]
+	path = minimal-nodeserv/nodeserv
+	url = https://github.com/synerex/synerex_nodeserv
+[submodule "minimal-sxserver/synerex_server"]
+	path = minimal-sxserver/synerex_server
+	url = https://github.com/synerex/synerex_server.git
