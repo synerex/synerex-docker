@@ -17,5 +17,6 @@ fi
 docker run  -d --rm --name nodeserv --network synerex-network -p 9990:9990 nkawa/synerex_nodeserv -addr 0.0.0.0
 docker run  -d --rm --name sxserv --network synerex-network -p 10000:10000 nkawa/synerex_server -nodeaddr nodeserv --servaddr sxserv
 
-
+./minimal-map/run-map-provider.sh
+./minimal-fleet/run-fleet-provider.sh
 
