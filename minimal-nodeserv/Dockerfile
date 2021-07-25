@@ -5,6 +5,7 @@ RUN go build
 
 FROM alpine
 COPY --from=build-env /work/nodeserv /sxbin/nodeserv
+EXPORT 9990
 ENTRYPOINT ["/sxbin/nodeserv"]
 CMD [""]
 
