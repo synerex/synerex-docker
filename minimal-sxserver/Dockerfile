@@ -4,7 +4,7 @@ WORKDIR /work
 #RUN apk add make git
 #RUN make
 RUN go build
-
+EXPOSE 10000
 FROM alpine
 COPY --from=build-env /work/synerex-server /sxbin/synerex-server
 ENTRYPOINT ["/sxbin/synerex-server"]
