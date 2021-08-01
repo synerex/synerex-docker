@@ -4,3 +4,15 @@
 [submodule "minimal-sxserver/synerex_server"]
 	path = minimal-sxserver/synerex_server
 	url = https://github.com/synerex/synerex_server.git
+[submodule "minimal-harmovis_layers/harmovis_layers"]
+	path = minimal-harmovis_layers/harmovis_layers
+	url = https://github.com/synerex/provider_harmovis_layers
+[submodule "minimal-proxy/proxy"]
+	path = minimal-proxy/synerex_proxy
+	url = https://github.com/synerex/provider_proxy
+[submodule "minimal-map/provider_map"]
+	path = minimal-map/provider_map
+	url = https://github.com/synerex/provider_map.git
+[submodule "minimal-fleet/provider_fleet"]
+	path = minimal-fleet/provider_fleet
+	url = https://github.com/synerex/provider_fleet.git

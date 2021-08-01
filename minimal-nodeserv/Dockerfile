@@ -5,9 +5,9 @@ RUN go build
 
 FROM alpine
 COPY --from=build-env /work/nodeserv /sxbin/nodeserv
-EXPORT 9990
+WORKDIR /sxbin
 ENTRYPOINT ["/sxbin/nodeserv"]
-CMD [""]
+CMD ["-addr 0.0.0.0"]
 
 
 
