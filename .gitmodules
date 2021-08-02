@@ -22,3 +22,9 @@
 [submodule "minimal-ch_monitor/channel_monitor"]
 	path = minimal-ch_monitor/channel_monitor
 	url = https://github.com/synerex/provider_channel_monitor.git
+[submodule "demo-geo/HarmoVIS_client"]
+	path = demo-geo/HarmoVIS_client
+	url = https://github.com/synerex/HarmoVIS_client.git
+[submodule "demo-geo/provider_channel_retrieve"]
+	path = demo-geo/provider_channel_retrieve
+	url = https://github.com/synerex/provider_channel_retrieve.git
