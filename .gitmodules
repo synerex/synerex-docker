@@ -28,3 +28,12 @@
 [submodule "demo-geo/provider_channel_retrieve"]
 	path = demo-geo/provider_channel_retrieve
 	url = https://github.com/synerex/provider_channel_retrieve.git
+[submodule "minimal-forward/provider_forward"]
+	path = minimal-forward/provider_forward
+	url = https://github.com/synerex/provider_forward.git
+[submodule "minimal-channel_store/provider_channel_store"]
+	path = minimal-channel_store/provider_channel_store
+	url = https://github.com/synerex/provider_channel_store.git
+[submodule "minimal-grideye_store/provider_grideye_store"]
+	path = minimal-grideye_store/provider_grideye_store
+	url = https://github.com/synerex/provider_grideye_store.git
